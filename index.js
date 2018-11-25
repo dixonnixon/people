@@ -14,7 +14,7 @@ function avg(array, field) {
 
 function findFav(array, field) {
     let fav = find(array, field);
-    console.log(fav.value);
+    // console.log(fav.value);
     let findFav = [];
     for(let v of array) 
         (v[field] == fav.value) ? findFav.push(v) : "";
