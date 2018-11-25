@@ -11,7 +11,7 @@ function avg(array, field) {
     }
     return {value: parseFloat(sum/array.length), field: field};
 }
-
+s
 function findFav(array, field) {
     let fav = find(array, field);
     console.log(fav.value);
