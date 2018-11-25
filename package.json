@@ -1,0 +1,20 @@
+{
+  "name": "people",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dixonnixon/people.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dixonnixon/people/issues"
+  },
+  "homepage": "https://github.com/dixonnixon/people#readme",
+  "description": ""
+}
