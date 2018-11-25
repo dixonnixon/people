@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Human = require('./human');
 
+
 function avg(array, field) {
     let sum = 0;
     for(let v of array) {
@@ -96,6 +97,7 @@ someAsyncOperation(search, () => {
             search.push(new Human(...human.split(';')));
         });
         // console.log(search);
-        searchData(search.filter(word => word.id.length > 0));
+        //somehow seek blank rows
+        searchData(search.filter(item => item.id.length > 0));
     });
 });
